@@ -233,6 +233,19 @@
     "リプレイ情報が一致しません: RecordID = {recordId}": "Replay information does not match: RecordID = {recordId}",
     "アップロードされたファイルからリプレイ情報を見つけられませんでした": "Could not find replay information from uploaded file."
   },
+  "UpdateHistoryDialog": {
+    "更新履歴": "Update history",
+    "閉じる": "Close",
+    "初公開しました": "Published for the first time.",
+    "初期開発として 東方紅魔郷、東方妖々夢、東方永夜抄、東方風神録、東方地霊殿、東方星蓮船、東方神霊廟、東方輝針城、東方紺珠伝、東方天空璋 のリプレイアップロード、一覧表示に対応しました": "Initial development includes replay uploads and list displays of Touhou Koumakyou, Touhou Youyoumu, Touhou Eiyashou, Touhou Fuujinroku, Touhou Chireiden, Touhou Seirensen, Touhou Shinreibyou, Touhou Kishinjou, Touhou Kanjuden, and Touhou Tenkuushou.",
+    "リプレイ1件を比較元として選択し同一難易度の他のリプレイとの比較を行う機能を作成しました": "Created a function to select one replay as a comparison source and compare it with other replays of the same difficulty level.",
+    "多言語（日本語／英語）に対応しました": "Supports multiple languages ​​(Japanese/English).",
+    "妖精大戦争、東方鬼形獣、東方虹龍洞 のリプレイアップロード、一覧表示、比較に対応しました": "Added support for replay upload, list display, and comparison for Yousei Daisensou, Touhou Kikeijuu, and Touhou Kouryuudou.",
+    "リプレイ情報のバックアップ、リストア機能を作成しました": "Created a backup and restore function for replay information.",
+    "Windows向けのデスクトップアプリ版の初公開を行いました": "Released the desktop app version for Windows for the first time.",
+    "他作品のリプレイがアップロードできてしまっていた問題について修正しました": "Fixed an issue where replays of other works could be uploaded.",
+    "更新履歴の表示を画面内に追加しました": "Added display of update history on screen."
+  },
   "FilterMatchMode": {
     "で始まる": "starts with",
     "を含む": "contains",

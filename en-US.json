@@ -211,11 +211,70 @@
     "閉じる": "Close",
     "バックアップ開始": "Start data backup",
     "進捗・状況": "Progress / Status",
-    "進行中": "Processing",
     "スキップしました": "Skipped",
     "成功しました": "Succeeded",
     "失敗しました": "Failed",
-    "リストア": "Restore"
+    "リストア": "Restore",
+    "フォルダ同期": "Folder sync",
+    "作品別にリプレイファイルを含むフォルダを設定することで、フォルダに含まれるリプレイファイルの自動アップロードができます": "By setting a folder containing replay files for each work, you can automatically upload the replay files contained in the folder.",
+    "この機能はデスクトップアプリ版でのみ利用可能です": "This feature is only available in the desktop app version."
+  },
+  "FolderSyncDialog": {
+    "フォルダ同期設定作成": "Add folder sync setting",
+    "フルスキャン": "Full scan",
+    "前回更新日以降": "Since last update",
+    "起動時＆手動": "At startup & manual",
+    "手動のみ": "Manual only",
+    "同期対象フォルダ一覧": "List of folders to be synchronized",
+    "同期開始": "Start sync",
+    "同期中": "Syncing",
+    "一括同期開始": "Start batch sync",
+    "作品名": "Product title",
+    "作成日時": "Registration date",
+    "フォルダパス": "Folder path",
+    "同期設定": "Sync mode",
+    "同期タイミング": "Sync timing",
+    "最終同期日時": "Last sync date",
+    "削除": "Delete",
+    "登録されていません": "Not registered",
+    "閉じる": "Close",
+    "フォルダ同期設定の削除確認": "Confirm deletion of folder synchronization settings",
+    "選択したフォルダ同期設定について削除します。よろしいですか？": "Delete the selected folder synchronization settings. Are you sure?",
+    "キャンセル": "Cancel",
+    "OK": "OK",
+    "{folderPath} フォルダの同期開始": "{folderPath} Start syncing folder",
+    "{folderPath} フォルダより {productTitle} のリプレイファイルを {totalCount} 件見つけました": "Found {totalCount} replay files for {productTitle} in folder {folderPath}",
+    "{folderPath} フォルダ内のリプレイ確認中 ({currentCount} / {totalCount})": "Checking replays in {folderPath} folder ({currentCount} / {totalCount})",
+    "{folderPath} フォルダの最終同期日時を更新中": "{folderPath} Updating folder's last sync date and time"
+  },
+  "FolderSyncSettingAddDialog": {
+    "フォルダ同期設定作成": "Add folder sync setting",
+    "同期対象としたいリプレイフォルダがどの作品のものであるかを選択してください": "Please select which work the replay folder you want to synchronize belongs to.",
+    "フォルダ選択": "Select folder",
+    "同期対象としたいフォルダを選択してください": "Please select the folder you want to sync.",
+    "対象とするフォルダの中には最低1件リプレイファイルを含んでいる必要があります": "The target folder must contain at least one replay file.",
+    "同期設定について以下の2つのどちらかを選択してください": "Please select one of the following two options for sync mode.",
+    "フルスキャン": "Full scan",
+    "前回更新日以降": "Since last update",
+    "同期設定で「フルスキャン」を選択した場合は同期のたびにフォルダ内に含まれるすべてのリプレイファイルをアップロード対象として認識します": "If you select \"Full scan\" in the synchronization mode, all replay files contained in the folder will be recognized for upload every time you synchronize.",
+    "同期設定で「前回更新日以降」を選択した場合は前回チェックした日時以降の更新日のリプレイファイルのみをアップロード対象として認識します": "If you select \"Since last update\" in the synchronization mode, only replay files with update dates after the last time you checked will be recognized for upload.",
+    "同期タイミングについて以下の2つのどちらかを選択してください": "Please select one of the following two options for sync timing.",
+    "起動時＆手動": "At startup & manual",
+    "手動のみ": "Manual only",
+    "同期タイミングで「起動時＆手動」を選択した場合はアプリケーションの起動時にフォルダ同期の処理が自動実行されます": "If you select \"At startup & manual\" for the synchronization timing, the folder synchronization process will be executed automatically when the application starts.",
+    "閉じる": "Close",
+    "登録": "Register"
+  },
+  "FolderSyncResultDialog": {
+    "フォルダ同期結果": "Folder sync results",
+    "作品名": "Product title",
+    "同期設定の作成日時": "Create date of the folder sync setting",
+    "フォルダパス": "Folder path",
+    "ファイル総数": "Number of total files",
+    "同期対象のファイル数": "Number of files to sync",
+    "新規登録数": "Number of new registrations",
+    "処理時間(秒)": "Processing time (seconds)",
+    "閉じる": "Close"
   },
   "RestoreDialog": {
     "リストア元とするzipファイルを選択してください": "Please select the zip file to restore from",
@@ -244,7 +303,8 @@
     "リプレイ情報のバックアップ、リストア機能を作成しました": "Created a backup and restore function for replay information.",
     "Windows向けのデスクトップアプリ版の初公開を行いました": "Released the desktop app version for Windows for the first time.",
     "他作品のリプレイがアップロードできてしまっていた問題について修正しました": "Fixed an issue where replays of other works could be uploaded.",
-    "更新履歴の表示を画面内に追加しました": "Added display of update history on screen."
+    "更新履歴の表示を画面内に追加しました": "Added display of update history on screen.",
+    "作品別にリプレイフォルダを設定し、フォルダ内に含まれるリプレイを自動でアップロードすることが出来るフォルダ同期機能を追加しました（デスクトップアプリ版限定）": "Added the ability to set a replay folder and automatically upload the replay files contained within the folder (desktop app version only)."
   },
   "FilterMatchMode": {
     "で始まる": "starts with",
@@ -286,7 +346,23 @@
     "読み込みOK": "Loading OK",
     "添付したファイルについて正常に読み込みができました。内容を確認のうえ「リストア開始」を選択してください": "The attached file was successfully loaded. Please check the contents and select \"Start data restore\"",
     "読み込みエラー": "Loading error",
-    "バックアップの読み込みに失敗しました: {message}": "Failed to load backup: {message}"
+    "バックアップの読み込みに失敗しました: {message}": "Failed to load backup: {message}",
+    "フォルダ同期設定作成": "Add folder sync setting",
+    "入力した情報を元にフォルダ同期設定を登録しました": "Folder synchronization settings have been registered based on the information you entered.",
+    "作品キーの選択が不正です": "Invalid product key selection.",
+    "同期対象のフォルダパスが不正です": "The folder path to synchronize is invalid.",
+    "入力した内容と一致するフォルダ同期設定が既に登録されています": "A folder synchronization setting that matches the information you entered has already been registered.",
+    "フォルダ内に選択した作品に対応するリプレイファイルが1件も含まれていません": "There are no replay files for the selected work in the folder.",
+    "フォルダ内に含まれるリプレイファイル1件のデータ取得に失敗しました": "Failed to retrieve data for 1 replay file contained in the folder.",
+    "フォルダ内に含まれるリプレイファイル1件の検証に失敗しました": "Failed to validation for 1 replay file contained in the folder.",
+    "フォルダ同期": "Folder sync",
+    "フォルダ同期が完了しました": "Folder sync completed",
+    "フォルダ同期設定の削除に失敗しました": "Failed to delete folder synchronization settings",
+    "フォルダ同期設定の削除が完了しました": "Deletion of folder synchronization settings is complete"
+  },
+  "ProcessingReason": {
+    "入力値チェック中": "Checking input values",
+    "リプレイ情報取得中": "Obtaining replay informations"
   },
   "TH6": {
     "ランク": "Rank"

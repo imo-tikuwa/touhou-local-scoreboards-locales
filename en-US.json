@@ -304,7 +304,10 @@
     "Windows向けのデスクトップアプリ版の初公開を行いました": "Released the desktop app version for Windows for the first time.",
     "他作品のリプレイがアップロードできてしまっていた問題について修正しました": "Fixed an issue where replays of other works could be uploaded.",
     "更新履歴の表示を画面内に追加しました": "Added display of update history on screen.",
-    "作品別にリプレイフォルダを設定し、フォルダ内に含まれるリプレイを自動でアップロードすることが出来るフォルダ同期機能を追加しました（デスクトップアプリ版限定）": "Added the ability to set a replay folder and automatically upload the replay files contained within the folder (desktop app version only)."
+    "作品別にリプレイフォルダを設定し、フォルダ内に含まれるリプレイを自動でアップロードすることが出来るフォルダ同期機能を追加しました（デスクトップアプリ版限定）": "Added the ability to set a replay folder and automatically upload the replay files contained within the folder (desktop app version only).",
+    "アップロード済みのリプレイ情報の「コメント」を更新する機能を追加しました": "Added the ability to update \"comment\" of uploaded replay information.",
+    "アップロード済みのリプレイ情報の「プレイ日付(年)」を更新する機能を追加しました（東方妖々夢のみ）": "Added a function to update the \"played date (year)\" of uploaded replay information (Touhou Youyoumu only).",
+    "リプレイ一覧画面のUIについて微修正しました": "Minor corrections to the UI of the replay list screen."
   },
   "FilterMatchMode": {
     "で始まる": "starts with",
@@ -358,7 +361,11 @@
     "フォルダ同期": "Folder sync",
     "フォルダ同期が完了しました": "Folder sync completed",
     "フォルダ同期設定の削除に失敗しました": "Failed to delete folder synchronization settings",
-    "フォルダ同期設定の削除が完了しました": "Deletion of folder synchronization settings is complete"
+    "フォルダ同期設定の削除が完了しました": "Deletion of folder synchronization settings is complete",
+    "更新完了": "Update completed",
+    "入力した内容でリプレイ情報を更新しました": "Replay information has been updated with the information you entered.",
+    "更新失敗": "Update failed",
+    "リプレイ情報の更新でエラーが発生しました": "An error occurred while updating replay information."
   },
   "ProcessingReason": {
     "入力値チェック中": "Checking input values",
